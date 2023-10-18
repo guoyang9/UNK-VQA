@@ -1,8 +1,10 @@
 # UNK-VQA: Unanswerable Visual Question Answering
 ### A VQA dataset that includes unanswerable questions.
+#### Code contribution: Fangkai Jiao (90%) and Yangyang Guo (10%).
 
 The dataset is released at the [google link](https://drive.google.com/drive/folders/18Uapv6smzcWKmnE5tHWo3hxdl60qrbP3?usp=sharing).
 
+### Dataset Structure
 The dataset is structured as follows:
 ```
 - images-train
@@ -16,6 +18,13 @@ The dataset is structured as follows:
 - annt_test.json
 ```
 
+### Perturbation Types
+There are 5 perturbation types in our dataset, and a short illustration is as follows:
+<div style="text-align:center">
+  <img src="./example.jpg" alt="example" style="width: 80%;" />
+</div>
+
+### Annotation Json File Illustration
 In specific, each ```json``` file shares a similar structure (We show one example of the annotation below):
 ```json
 {
@@ -64,7 +73,16 @@ In specific, each ```json``` file shares a similar structure (We show one exampl
 }
 
 ```
+<img src="./COCO_val2014_000000549683.jpg" alt="example" style="width: 50%;" />
+
+### Acknowledgement
 
 Please kindly ackonwledge the paper if you use the data:
 ```python
+@misc{unk-vqa,
+      title={Unanswerable Visual Question Answering}, 
+      author={Yanyang Guo and Fangkai Jiao and Zhiqi Shen and Liqiang Nie and Mohan Kankanhalli},
+      year={2023},
+      eprint={2310.10942},
+}
 ```
