@@ -2,7 +2,9 @@
 ### A VQA dataset that includes unanswerable questions.
 #### Code contribution: Fangkai Jiao (90%) and Yangyang Guo (10%).
 
-The dataset is released at the [google link](https://drive.google.com/drive/folders/18Uapv6smzcWKmnE5tHWo3hxdl60qrbP3?usp=sharing).
+The dataset is released at [google drive](https://drive.google.com/drive/folders/18Uapv6smzcWKmnE5tHWo3hxdl60qrbP3?usp=sharing).
+
+The ArXiv version of the paper is [released](https://arxiv.org/abs/2310.10942).
 
 ### Dataset Structure
 The dataset is structured as follows:
