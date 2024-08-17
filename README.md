@@ -82,9 +82,9 @@ In specific, each ```json``` file shares a similar structure (We show one exampl
 Please kindly ackonwledge the paper if you use the data:
 ```python
 @misc{unk-vqa,
-      title={UNK-VQA: A Dataset and A Probe into Multi-modal Large Models' Abstention Ability}, 
+      title={UNK-VQA: A Dataset and a Probe into the Abstention Ability of Multi-modal Large Models}, 
       author={Yanyang Guo and Fangkai Jiao and Zhiqi Shen and Liqiang Nie and Mohan Kankanhalli},
-      year={2023},
-      eprint={2310.10942},
+      year={2024},
+      journal={TPAMI},
 }
 ```
